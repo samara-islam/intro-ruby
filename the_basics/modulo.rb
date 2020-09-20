@@ -48,7 +48,10 @@ print "this is a git test. "
 print "this is another git test. "
 print "this is the third test. "
 
-print "I am commiting to another change. "
+puts "I am commiting to another change. "
+
+print "This line was added using the github.com editor."
+
 
 
 
