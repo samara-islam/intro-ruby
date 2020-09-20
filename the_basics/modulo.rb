@@ -44,9 +44,11 @@ puts ones
 
 # git testing
 
-print "this is a git test."
-print "this is another git test."
-print "this is the third test"
+print "this is a git test. "
+print "this is another git test. "
+print "this is the third test. "
+
+print "I am commiting to another change. "
 
 
 
