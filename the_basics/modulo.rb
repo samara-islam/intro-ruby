@@ -45,7 +45,7 @@ puts ones
 # git testing
 
 print "this is a git test. "
-print "this is another git test. "
+print "this is another git test.d"
 print "this is the third test. "
 
 puts "I am commiting to another change. "
