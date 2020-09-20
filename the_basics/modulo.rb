@@ -42,7 +42,10 @@ ones = (my_num % 10)
 print "ones place: "
 puts ones
 
+# git testing
 
+print "this is a git test."
+print "this is another git test."
 
 
 
