@@ -1,0 +1,13 @@
+# variables
+# scope.rb
+#
+#
+
+a = 5 # variable is initialized
+
+3.times do |n| # method invocation with a block
+  a = 3 # is a accesible here, in an inner scope?
+end
+
+puts a
+

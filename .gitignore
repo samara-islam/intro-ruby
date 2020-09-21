@@ -1,5 +1,7 @@
-# ignore all sqlite database
-#  ignore files ending with ~
 
-db/*.sqlite3
-*.**~
+#ignore hidden files 
+#ignore gitignore
+#
+
+.*
+!/.gitignore

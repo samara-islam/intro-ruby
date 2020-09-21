@@ -1,0 +1,5 @@
+# ignore files ending with rb.~
+# ignore files ending with rb.un
+ 
+*.rb.~
+*.rb.un~
