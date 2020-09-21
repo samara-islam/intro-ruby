@@ -1,0 +1,5 @@
+# ignore all sqlite database
+#  ignore files ending with ~
+
+db/*.sqlite3
+*.**~
