@@ -1,0 +1,31 @@
+# methods
+# textbook example
+
+puts "hello"
+puts "hi"
+puts "how are you?"
+puts "I'm fine"
+
+def say(words)
+  puts words+"."
+end
+
+say("Hello")
+say("Hi")
+say("How are you?")
+say("I'm fine")
+
+
+# (words) part of method is called parameter
+# method invocation == calling a method
+# arguments are pieces on information sent to a method invovation to be modified or used to return specific value.
+
+def more_say(more_words="hello")
+  puts more_words + ", "
+end
+
+more_say()
+more_say("Hi")
+more_say("How are you?")
+more_say("Fine")
+
