@@ -33,12 +33,39 @@
 #  say_hello = false
 #end
 
-numbers = []
-counter = 0
-while counter < 5
-  random = rand(1..99)
-  numbers.push(random)
-  counter = counter + 1
-end
+#numbers = []
+#counter = 0
+#while counter < 5
+#  random = rand(100)
+#  numbers.push(random)
+#  counter += 1
+#end
 
-p numbers 
+#puts numbers
+
+#count = 1
+
+#until count == 11
+#  puts count
+#  count += 1
+#end
+
+numbers = [7, 9, 13, 25, 18]
+
+#counter = 0
+#until counter == numbers.length
+#  puts numbers[counter]
+#  counter += 1
+#end
+
+#for i in 1..100
+#  unless i%2 == 0
+#    puts i
+#  end 
+#end
+
+friends = ['Sarah', 'John', 'Hannah', 'Dave']
+
+for f in friends
+  puts "Hello, #{f}!"
+end
