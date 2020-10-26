@@ -89,4 +89,100 @@
 #  end 
 #end
 
+# 7. In the previous exercise, you wrote a program to solicit
+#    a password. In this exercise, you should modify the program so 
+#    it also requires a user name. The program should solicit both 
+#    the user name and the password, then validate both, and issue a 
+#    generic error message if one or both are incorrect; the error 
+#    message should not tell the user which item is incorrect.
+#
+#USERNAME = "samara"
+#PASSWORD = "password"
+#
+#loop do
+#  puts "Enter Username:"
+#  user_name = gets.chomp
+#  puts "Enter Password:"
+#  user_password = gets.chomp
+#  if user_name == USERNAME && user_password == PASSWORD
+#    puts 'You are the winner of a new washer/dryer combo!'
+#    break
+#  else
+#    puts "Authorization Failed! Try again!"
+#  end
+#end
+
+# 8. Write a program that obtains two Integers from the user, 
+# then prints the results of dividing the first by the second. 
+# The second number must not be 0, and both numbers should be 
+# validated using this method:
+#
+#
+#loop do 
+#  puts "Pick first integer:"
+#  int_one = gets.chomp.to_i
+#  puts "Pick second integer:"
+#  int_two = gets.chomp.to_i
+#  if int_two != 0
+#    int_div = int_one / int_two 
+#    puts "#{int_one} / #{int_two} = " 
+#    puts int_div
+#    break
+#  else
+#    puts "Integer 2 cannot be zero. Try again!"
+#  end  
+#end
+
+# 9. 
+#
+# 
+#
+#
+#loop do
+#  puts "enter number of lines (q to quit)"
+#  user_input = gets.chomp.downcase
+#  if user_input == 'q' || user_input == 'quit'
+#    puts "see ya!"
+#    break
+#  else
+#    user_int = user_input.to_i
+#    if user_int < 3
+#      puts "not enough lines to make it worth it! try again!"
+#    else
+#      user_int.times { puts 'launch school is aight.' }
+#      puts "want to go again? (y or n)"
+#      second_input = gets.chomp.downcase
+#      if second_input == 'n' || second_input == 'no'
+#        puts "ok, see ya!"
+#        break
+#      end 
+#    end 
+#  end
+#end
+
+# 10.
+#
+# request two integers
+# add them together, display result
+# one integer must be positive
+# one integer must be negative
+
+loop do 
+  puts "integer 1: "
+  int_one = gets.chomp.to_i
+  puts "integer 2: "
+  int_two = gets.chomp.to_i
+  if int_one == 0 || int_two == 0
+    puts "sorry, non-zero entries not allowed"
+  elsif int_one * int_two > 0
+    puts "sorry, one number has to be negative. try again"
+  else
+    result = int_one + int_two
+    puts "(#{int_one}) + (#{int_two}) = #{result}"
+    break
+  end
+end 
+
+
+
 
