@@ -16,3 +16,16 @@
 #doubled_numbers = []
 #doubled_numbers = numbers.map { |element| element * 2 }
 #puts doubled_numbers
+
+#numbers = [5, 9, 21, 26, 39]
+#divthree = numbers.select { |e| e%3 == 0}
+#p divthree
+
+#favorites = [['Dave', 7], ['Miranda', 3], ['Jason', 11]]
+#p favorites.flatten
+
+array1 = [1, 5, 9]
+array2 = [1, 9, 5]
+
+p array1 == array2
+p array1.sort == array2.sort
